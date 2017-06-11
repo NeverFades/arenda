@@ -23,14 +23,6 @@ body {
     float: right;
 }
 
-.mr15 {
-    margin-right: 15px;
-}
-
-.ml15 {
-    margin-left: 15px;
-}
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -321,13 +313,17 @@ h3 {
 .ActivityNews-com {
     width: 380px;
     height: 250px;
+    margin-right: 30px;
 }
-
+.ActivityNews-com:last-child{
+    margin: 0;
+}
 .zhixun-p {
     height: 30px;
     font-weight: 500;
     font-size: 18px;
     font-style: italic;
+    padding: 0 4px;
 }
 
 .zhixun-p-L {
@@ -345,7 +341,6 @@ h3 {
 }
 
 .zhixun-p .more {
-    margin-right: 10px;
     color: #754823;
     font-size: 14px;
     font-style: normal;
