@@ -10,6 +10,11 @@
     <title>奥伦达官网-首页</title>
     <link rel="stylesheet" href="res/css/style.css">
     <link rel="stylesheet" href="res/css/slide.css">
+    <script>
+        if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) || /(Android)/i.test(navigator.userAgent)) {
+            window.location.href = "https://neverfades.github.io/arenda/mob/index.html";
+        }
+    </script>
 </head>
 <body>
 <!--头部展示-->
@@ -434,41 +439,6 @@
 </div>
 <script type="text/javascript" src="./res/js/jquery1.4.2.min.js"></script>
 <script type="text/javascript" src="./res/js/jquery.SuperSlide.2.1.1.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        jQuery(".slideBox").slide({
-            mainCell: ".bd ul",
-            autoPlay: true,
-            effect: 'fade',
-            trigger: 'mouseover',
-            easing: 'swing',
-            delayTime: 500,
-            mouseOverStop: true,
-            pnLoop: true
-        });
-        jQuery(".picScroll-left").slide({
-            titCell: ".hd ul",
-            mainCell: ".bd ul",
-            autoPage: true,
-            effect: 'left',
-            autoPlay: true,
-            scroll: 1,
-            vis: 5,
-            easing: 'swing',
-            delayTime: 500,
-            pnLoop: true,
-            trigger: 'mouseover',
-            mouseOverStop: true
-        });
-        $('.nav-hd').find('li').click(function () {
-            $(this).addClass('on').siblings('li').removeClass('on');
-        });
-        $('.base-warp_bd').find('li').click(function () {
-            $(this).addClass('on').siblings('li').removeClass('on');
-            $('.base-warp').find('.base-desc').removeClass('js-show');
-            $('#' + $(this).attr('data-target')).addClass('js-show');
-        })
-    })
-</script>
+<script type="text/javascript" src="./res/js/index.js"></script>
 </body>
 </html>
