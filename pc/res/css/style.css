@@ -105,6 +105,7 @@ h3 {
     text-align: center;
     top: 10px;
     font-size: 16px;
+    left: 495px;
 }
 
 .page-title span {
@@ -196,6 +197,7 @@ h3 {
 }
 
 .nav-hd > li.on > a {
+    background-color: #eee3cd;
     background: url("../image/nav_current.png") left center no-repeat;
     background-size: cover;
     -moz-background-size: cover;
@@ -447,9 +449,7 @@ h3 {
 }
 
 .page-DreamTribe {
-    top: 0;
-    left: 50%;
-    margin-left: -105px;
+    top: -2px;
 }
 
 .circle {

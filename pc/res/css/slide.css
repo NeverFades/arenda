@@ -9,6 +9,7 @@
     overflow: hidden;
     width: 1100px;
     position: absolute;
+    *margin-left: 50px;
 }
 
 .slideBox .hd {
@@ -33,16 +34,16 @@
     height: 10px;
     line-height: 14px;
     text-align: center;
-    background-color: #999999;
+    /*background-color: #999999;*/
     cursor: pointer;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     color: transparent;
     background: url("../image/circle-gray.png") center no-repeat;
 
 }
 
 .slideBox .hd ul li.on {
-    background-color: #522712;
+    /*background-color: #522712;*/
     background: url("../image/cirlce-current.png") center no-repeat;
 }
 
