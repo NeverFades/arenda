@@ -227,10 +227,9 @@ h3 {
 }
 
 .banner-border {
-    height: 410px;
+    height: 410px !important;
     z-index: 1;
     width: 1100px;
-    margin-top: 22px;
 }
 
 .MemberBase {
@@ -343,7 +342,7 @@ h3 {
     background: url("../image/zhixun-bj.png") 0 0 no-repeat;
 }
 .tuwen-img{
-    padding:12px 10px 0px 10px;
+    padding:12px 10px 0 10px;
     height:80px;
 }
 .tuwen-img img{
@@ -358,7 +357,7 @@ h3 {
     font-size: 18px;
 }
 .wen{
-    padding:12px 10px 0px 10px;
+    padding:12px 10px 0 10px;
 }
 .wen dl{
     width:354px;
