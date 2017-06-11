@@ -2,18 +2,17 @@
  * Copyright 2017 Qiuhua Jia.
  * @author hua <flower346@qq.com>
  */
-
-/*通用属性*/
-.red {
-    border: 1px red solid;
-}
-
-.black {
-    border: 1px black solid;
-}
-
-.blue {
-    border: 1px blue solid;
+/*--------------------------------*/
+body {
+    margin: 0;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #522712;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+    background: url("../image/body_bj.jpg") center center repeat;
 }
 
 .fl {
@@ -28,18 +27,6 @@
 }
 .ml15{
     margin-left: 15px;
-}
-/*--------------------------------*/
-body {
-    margin: 0;
-    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #522712;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga", "kern";
-    background: url("../image/body_bj.jpg") center center repeat;
 }
 
 table {
@@ -204,7 +191,7 @@ h3 {
 }
 
 .nav-hd > li.on > a {
-    background: url("../image/nav_current.png") center no-repeat;
+    background: url("../image/nav_current.png") left center no-repeat;
     background-size: cover;
 }
 
