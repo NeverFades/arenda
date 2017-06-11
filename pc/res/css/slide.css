@@ -3,13 +3,14 @@
  * @author hua <flower346@qq.com>
  */
 
-.slideBox,.banner-border{
+.slideBox, .banner-border {
     top: 22px;
     height: 450px;
     overflow: hidden;
     width: 1100px;
     position: absolute;
 }
+
 .slideBox .hd {
     height: 15px;
     overflow: hidden;
@@ -32,14 +33,17 @@
     height: 10px;
     line-height: 14px;
     text-align: center;
-    background: #999999;
+    background-color: #999999;
     cursor: pointer;
     border-radius: 100%;
     color: transparent;
+    background: url("../image/circle-gray.png") center no-repeat;
+
 }
 
 .slideBox .hd ul li.on {
-    background: #522712;
+    background-color: #522712;
+    background: url("../image/cirlce-current.png") center no-repeat;
 }
 
 .slideBox .bd {
@@ -87,6 +91,7 @@
     background: url("../image/left.png") 0 0 no-repeat;
     left: 20px;
 }
+
 .picScroll-left .hd .prev {
     background: url("../image/right.png") 0 0 no-repeat;
     right: 10px;
@@ -108,7 +113,6 @@
     zoom: 1;
 }
 
-
 .picScroll-left .bd {
     padding: 16px 10px 25px;
 }
@@ -117,6 +121,7 @@
     overflow: hidden;
     zoom: 1;
 }
+
 .picScroll-left .bd ul li {
     float: left;
     _display: inline;
@@ -129,6 +134,7 @@
     background: url("../image/pic-bj.png") 0 0 no-repeat;
     background-size: cover;
 }
+
 .picScroll-left .bd ul li:last-child {
     margin: 0;
 }
